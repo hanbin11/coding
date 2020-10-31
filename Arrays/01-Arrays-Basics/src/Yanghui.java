@@ -20,14 +20,14 @@ public class Yanghui {
             System.out.println(list);
             return lists;
         }
-        lists=method(num - 1);
+        lists = method(num - 1);
         List<Integer> row = new ArrayList<>();
         row.add(1);
         for (int i = 1; i < num - 1; i++) {
             row.add(lists.get(num - 2).get(i-1) + lists.get(num - 2).get(i));
         }
         row.add(1);
-       lists.add(row);
+        lists.add(row);
         System.out.println(row);
         return lists;
     }

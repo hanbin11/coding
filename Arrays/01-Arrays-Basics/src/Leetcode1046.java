@@ -24,7 +24,8 @@ public class Leetcode1046 {
             objects.add(Math.abs(a - b));
             System.out.println(objects);
         }
-        if (objects.size()==0) {
+        if (objects.size() == 0) {
+
             return 0;
         }
         return objects.get(0);

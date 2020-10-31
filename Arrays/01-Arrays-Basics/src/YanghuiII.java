@@ -12,7 +12,7 @@ public class YanghuiII {
 
 
     public static List<Integer> method(int num) {
-       List<List<Integer>> lists=Yang(num+1);
+        List<List<Integer>> lists = Yang(num + 1);
         return lists.get(num);
     }
     public static List<List<Integer>> Yang(int num) {

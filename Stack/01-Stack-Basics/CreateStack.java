@@ -35,7 +35,6 @@ public class CreateStack {
     }
 
     public void increment(int k, int val) {
-
         //选较小的
         int n = k > num ? num : k;
         for (int i = 0; i < n; i++) {

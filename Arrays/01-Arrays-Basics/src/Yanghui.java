@@ -31,7 +31,6 @@ public class Yanghui {
         System.out.println(row);
         return lists;
     }
-
     public static void main(String[] args) {
         List<List<Integer>> test = method(10);
     }

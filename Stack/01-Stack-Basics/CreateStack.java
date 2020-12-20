@@ -26,7 +26,6 @@ public class CreateStack {
     }
 
     public int pop() {
-
         if (num == 0) {
             return -1;
         }
